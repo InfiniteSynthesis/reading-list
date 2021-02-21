@@ -1,28 +1,30 @@
-# My Reading List ![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
+# My Reading List 
+
+![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)
 
 ## Table of Contents
 
-### Ep 1 [Blockchain](#Blockchain)
+1. [Blockchain](#Blockchain)
 
-1. [General](#General)
-1. [Consensus](#Consensus)
-1. [Classical Consensus](#Classical-Consensus)
-1. [Stake](#Stake)
-1. [Proof of Work](#Proof-of-Work)
-1. [Block Generation and Mining](#Block-Generation-and-Mining)
-1. [Sidechains, Higher layer and Scalability](#Sidechains,-Higher-layer-and-Scalability)
-1. [Attacks](#Attacks)
-1. [Protocols](#Protocols)
+    1. [General](#General)
+    1. [Consensus](#Consensus)
+    1. [Classical Consensus](#Classical-Consensus)
+    1. [Stake](#Stake)
+    1. [Proof of Work](#Proof-of-Work)
+    1. [Block Generation and Mining](#Block-Generation-and-Mining)
+    1. [Sidechains, Higher layer and Scalability](#Sidechains,-Higher-layer-and-Scalability)
+    1. [Attacks](#Attacks)
+    1. [Protocols](#Protocols)
 
-### Ep 2 [Cryptography](#Cryptography)
+1. [Cryptography](#Cryptography)
 
-### Ep 3 [Complexity Theory](#Complexity-Theory)
+1. [Complexity Theory](#Complexity-Theory)
 
-1. [Fine-Grained Complexity Theory](#Fine-Grained-Complexity-Theory)
+    1. [Fine-Grained Complexity Theory](#Fine-Grained-Complexity-Theory)
 
-### EP 4 [Textbook](#Textbook)
+1. [Textbook](#Textbook)
 
-### Ep 5 [Notes](#Notes)
+1. [Notes](#Notes)
 
 ---
 
@@ -97,7 +99,7 @@
 
 - [Universally Composable Security: A New Paradigm for Cryptographic Protocols](https://eprint.iacr.org/2000/067.pdf). *Ran Canetti*.
 
-- [Random Oracles are Practical: A Paradigm for Designing Ecient Protocol](https://cseweb.ucsd.edu/~mihir/papers/ro.pdf). *Mihir Bellare, Phillip Rogaway*. ACM CCS '93.
+- [Random Oracles are Practical: A Paradigm for Designing Efficient Protocol](https://cseweb.ucsd.edu/~mihir/papers/ro.pdf). *Mihir Bellare, Phillip Rogaway*. ACM CCS '93.
 
 - [Authenticated Encryption: Relations among notions and analysis of the generic composition paradigm](https://eprint.iacr.org/2000/025.pdf). *Mihir Bellare, Chanathip Namprempre*.
 
