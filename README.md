@@ -72,6 +72,8 @@
 
 - [Pricing via Processing or Combatting Junk Mail](https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf). *Cynthia Dwork, Moni Naor*.
 
+- [Mining in Logarithmic Space](https://eprint.iacr.org/2021/623.pdf). *Aggelos Kiayias and Nikos Leonardos and Dionysis Zindros*.
+
 - [Proofs of Work and Bread Pudding Protocols](http://www.arijuels.com/wp-content/uploads/2013/09/JJ99.pdf). *Markus Jakobsson, Ari Juels*.
 
 ## Block Generation and Mining
@@ -162,6 +164,8 @@
 - Distributed Computing: Fundamentals, Simulations, and Advanced Topics, 2nd Eidtion. *Hagit Attiya, Jennifer Welch*.
 
 - [GAME THEORY, 2nd Edition](http://faculty.econ.ucdavis.edu/faculty/bonanno/PDF/GT_book.pdf). *Giacomo Bonanno*.
+
+- [The Joy of Cryptography](https://web.engr.oregonstate.edu/~rosulekm/crypto/). *Mike Rosulek*
 
 # Notes
 
