@@ -7,7 +7,7 @@
 	<tr>
     	<td><i>Satoshi Nakamoto</i></td>
     	<td width="175" align="center">Manuscript</td>
-    	<td width="100" align="center"><a href="https://www.bitcoin.com/bitcoin.pdf">PDF</a> | <a href="bib/TODO.bib">.BIB</a></td>
+    	<td width="100" align="center"><a href="https://www.bitcoin.com/bitcoin.pdf">PDF</a> | <a href="bib/nakamoto2009bitcoin.bib">.BIB</a></td>
     </tr>
 </table>
 

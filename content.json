@@ -5,7 +5,7 @@
 			"author": "Satoshi Nakamoto",
 			"booktitle": "Manuscript",
 			"url": "https://www.bitcoin.com/bitcoin.pdf",
-			"bibtex": ["TODO"],
+			"bibtex": ["nakamoto2009bitcoin"],
 			"detail": false
 		}
 	],
