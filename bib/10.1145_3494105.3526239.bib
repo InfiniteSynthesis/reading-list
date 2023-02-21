@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3494105.3526239,
+  author    = {Kelkar, Mahimna and Deb, Soubhik and Kannan, Sreeram},
+  title     = {Order-Fair Consensus in the Permissionless Setting},
+  year      = {2022},
+  isbn      = {9781450391740},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3494105.3526239},
+  doi       = {10.1145/3494105.3526239},
+  abstract  = {Transaction-order-manipulation attacks have become commonplace in public blockchains such as Ethereum, costing hundreds of millions of dollars. In these blockchains, a miner can unilaterally determine the order of transactions inside a block, and this ordering is not checked by other users, leaving room for the miner to manipulate the order for its own benefit. This gap is also evident from existing security results for permissionless blockchains. As prime examples, the breakthrough work of Garay et al. (Eurocrypt 2015) and Pass et al. (Eurocrypt 2017) showed the security properties of consistency and liveness for Nakamoto's seminal proof-of-work protocol. However, consistency and liveness do not provide any guarantees on the relationship between the order in which transactions arrive into the network and the finalized order in the ledger.As a solution, a recent paper by Kelkar et al. (Crypto 2020) introduced a third useful property for consensus protocols: (transaction)-order-fairness, which proposes a strong relationship between the transaction arrival order and their order in the ledger. Their model was limited to the classical (permissioned) setting however, where the set of protocol nodes is fixed a priori, and does not fit well for permissionless environments where order-manipulation attacks have been most prominent. In this work, we initiate the investigation of order-fairness in the permissionless setting and design two protocols that realize this new property addition to standard requirements of consistency and liveness. The key insight behind our protocols in providing order-fairness is that a miner can no longer unilaterally determine ordering and proposals from many miners are combined in a fair way to construct the finalized ordering.},
+  booktitle = {Proceedings of the 9th ACM on ASIA Public-Key Cryptography Workshop},
+  pages     = {3–14},
+  numpages  = {12},
+  keywords  = {blockchain, order-fair consensus, decentralized finance},
+  location  = {Nagasaki, Japan},
+  series    = {APKC '22}
+}
