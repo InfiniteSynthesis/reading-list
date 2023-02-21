@@ -4,8 +4,12 @@
 			"title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
 			"author": "Satoshi Nakamoto",
 			"booktitle": "Manuscript",
-			"url": "https://www.bitcoin.com/bitcoin.pdf",
-			"bibtex": ["nakamoto2009bitcoin"],
+			"url": {
+				"PDF": "https://www.bitcoin.com/bitcoin.pdf"
+			},
+			"bibtex": {
+				"manuscript": "nakamoto2009bitcoin"
+			},
 			"detail": false
 		}
 	],
@@ -13,41 +17,62 @@
 		{
 			"title": "The Bitcoin Backbone Protocol: Analysis and Applications",
 			"author": "Juan Garay and Aggelos Kiayias and Nikos Leonardos",
-			"booktitle": "EUROCRYPT 2015",
-			"url": "https://eprint.iacr.org/2014/765.pdf",
-			"bibtex": ["10.1007/978-3-662-46803-6_10", "cryptoeprint:2014/765"],
+			"booktitle": "EUROCRYPT '15",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2014/765.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-662-46803-6_10",
+				"eprint": "cryptoeprint:2014/765"
+			},
 			"detail": false
 		},
 		{
 			"title": "The Bitcoin Backbone Protocol with Chains of Variable Difficulty",
 			"author": "Juan Garay and Aggelos Kiayias and Nikos Leonardos",
-			"booktitle": "CRYPTO 2017",
-			"url": "https://eprint.iacr.org/2016/1048.pdf",
-			"bibtex": ["10.1007/978-3-319-63688-7_10"],
+			"booktitle": "CRYPTO '17",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2016/1048.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-319-63688-7_10"
+			},
 			"detail": false
 		},
 		{
 			"title": "How Does Nakamoto Set His Clock? Full Analysis of Nakamoto Consensus in Bounded-Delay Networks",
 			"booktitle": "Manuscript",
 			"author": "Juan Garay and Aggelos Kiayias and Nikos Leonardos",
-			"url": "https://eprint.iacr.org/2020/277.pdf",
-			"bibtex": ["cryptoeprint:2020/277"],
+			"url": {
+				"PDF": "https://eprint.iacr.org/2020/277.pdf"
+			},
+			"bibtex": {
+				"eprint": "cryptoeprint:2020/277"
+			},
 			"detail": false
 		},
 		{
 			"title": "Analysis of the Blockchain Protocol in Asynchronous Networks",
-			"booktitle": "EUROCRYPT 2017",
+			"booktitle": "EUROCRYPT '17",
 			"author": "Rafael Pass and Lior Seeman and Abhi Shelat",
-			"url": "https://eprint.iacr.org/2016/454.pdf",
-			"bibtex": ["10.1007/978-3-319-56614-6_22"],
+			"url": {
+				"PDF": "https://eprint.iacr.org/2016/454.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-319-56614-6_22"
+			},
 			"detail": false
 		},
 		{
 			"title": "Bitcoin as a Transaction Ledger: A Composable Treatment",
-			"booktitle": "CRYPTO 2017",
+			"booktitle": "CRYPTO '17",
 			"author": "Christian Badertscher and Ueli Maurer and Daniel Tschudi and Vassilis Zikas",
-			"url": "https://eprint.iacr.org/2017/149.pdf",
-			"bibtex": ["10.1007/978-3-319-63688-7_11"],
+			"url": {
+				"PDF": "https://eprint.iacr.org/2017/149.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-319-63688-7_11"
+			},
 			"detail": false
 		}
 	],
@@ -55,17 +80,25 @@
 		{
 			"title": "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
 			"author": "Aggelos Kiayias and Alexander Russell and Bernardo David and Roman Oliynykov",
-			"booktitle": "CRYPTO 2017",
-			"url": "https://eprint.iacr.org/2016/889.pdf",
-			"bibtex": ["10.1007/978-3-319-63688-7_12"],
+			"booktitle": "CRYPTO '17",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2016/889.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-319-63688-7_12"
+			},
 			"detail": false
 		},
 		{
 			"title": "Ouroboros Genesis: Composable Proof-of-Stake Blockchains with Dynamic Availability",
 			"author": "Christian Badertscher and Peter Gaži, Aggelos Kiayias and Alexander Russell and Vassilis Zikas",
-			"booktitle": "ACM CCS 2018",
-			"url": "https://eprint.iacr.org/2018/378.pdf",
-			"bibtex": ["10.1145/3243734.3243848"],
+			"booktitle": "ACM CCS '18",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2018/378.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1145/3243734.3243848"
+			},
 			"detail": false
 		}
 	],
@@ -73,17 +106,25 @@
 		{
 			"title": "The Byzantine Generals Problem",
 			"author": "Leslie Lamport and Robert Shostak and Marshall Peas",
-			"booktitle": "TOPLAS 1982",
-			"url": "https://lamport.azurewebsites.net/pubs/byz.pdf",
-			"bibtex": ["10.1145/357172.357176"],
+			"booktitle": "TOPLAS '82",
+			"url": {
+				"PDF": "https://lamport.azurewebsites.net/pubs/byz.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1145/357172.357176"
+			},
 			"detail": false
 		},
 		{
 			"title": "SoK: A Consensus Taxonomy in the Blockchain Era",
 			"author": "Juan Garay and Aggelos Kiayias",
-			"booktitle": "CT-RSA 2020",
-			"url": "https://eprint.iacr.org/2018/754.pdf",
-			"bibtex": ["10.1007/978-3-030-40186-3_13"],
+			"booktitle": "CT-RSA '20",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2018/754.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-030-40186-3_13"
+			},
 			"detail": false
 		}
 	],
@@ -91,17 +132,25 @@
 		{
 			"title": "Ouroboros Chronos: Permissionless Clock Synchronization via Proof-of-Stake",
 			"author": "Christian Badertscher and Peter Gaži and Aggelos Kiayias and Alexander Russell and Vassilis Zikas",
-			"booktitle": "TOPLAS 1982",
-			"url": "https://eprint.iacr.org/2019/838.pdf",
-			"bibtex": ["10.1007/978-3-030-77883-5_14"],
+			"booktitle": "TOPLAS '82",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2019/838.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-030-77883-5_14"
+			},
 			"detail": false
 		},
 		{
 			"title": "Permissionless Clock Synchronization with Public Setup",
 			"author": "Juan Garay and Aggelos Kiayias and Yu Shen",
-			"booktitle": "TCC 2022",
-			"url": "https://eprint.iacr.org/2022/1220.pdf",
-			"bibtex": ["10.1007/978-3-031-22368-6_7"],
+			"booktitle": "TCC '22",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2022/1220.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-031-22368-6_7"
+			},
 			"detail": false
 		}
 	],
@@ -109,17 +158,25 @@
 		{
 			"title": "Pricing via Processing or Combatting Junk Mail",
 			"author": "Cynthia Dwork and Moni Naor",
-			"booktitle": "CRYPTO 1992",
-			"url": "https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf",
-			"bibtex": ["10.1007/3-540-48071-4_10"],
+			"booktitle": "CRYPTO '92",
+			"url": {
+				"PDF": "https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/3-540-48071-4_10"
+			},
 			"detail": false
 		},
 		{
 			"title": "Proofs of Work From Worst-Case Assumptions",
 			"author": "Marshall Ball and Alon Rosen and Manuel Sabin and Prashant Nalini Vasudevan ",
-			"booktitle": "CRYPTO 2018",
-			"url": "https://eprint.iacr.org/2018/559.pdf",
-			"bibtex": ["10.1007/978-3-319-96884-1_26"],
+			"booktitle": "CRYPTO '18",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2018/559.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-319-96884-1_26"
+			},
 			"detail": false
 		}
 	],
@@ -127,18 +184,26 @@
 		{
 			"title": "Order-Fairness for Byzantine Consensus",
 			"author": "Mahimna Kelkar and Fan Zhang and Steven Goldfeder and Ari Juels",
-			"booktitle": "CRYPTO 2020",
-			"url": "https://eprint.iacr.org/2020/269.pdf",
-			"bibtex": ["10.1007/978-3-030-56877-1_16"],
+			"booktitle": "CRYPTO '20",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2020/269.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-030-56877-1_16"
+			},
 			"detail": false
 		},
 		{
 			"title": "Order-Fair Consensus in the Permissionless Setting",
 			"author": "Mahimna Kelkar and Soubhik Deb and Sreeram Kannan",
-			"booktitle": "APKC 2022",
-			"url": "https://dl.acm.org/doi/pdf/10.1145/3494105.3526239",
-			"bibtex": ["10.1145/3494105.3526239"],
-			"detail": false
+			"booktitle": "APKC '22",
+			"url": {
+				"PDF": "https://dl.acm.org/doi/pdf/10.1145/3494105.3526239"
+			},
+			"bibtex": {
+				"conference paper": "10.1145/3494105.3526239"
+			},
+			"detail": true
 		}
 	],
 	"Attacks": [
@@ -146,16 +211,24 @@
 			"title": "Theoretical Bitcoin Attacks with less than Half of the Computational Power (draft)",
 			"author": "Lear Bahack",
 			"booktitle": "Manuscript",
-			"url": "https://eprint.iacr.org/2013/868.pdf",
-			"bibtex": ["cryptoeprint:2013/868"],
+			"url": {
+				"PDF": "https://eprint.iacr.org/2013/868.pdf"
+			},
+			"bibtex": {
+				"manuscript": "cryptoeprint:2013/868"
+			},
 			"detail": false
 		},
 		{
 			"title": "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
 			"author": "Philip Daian and Steven Goldfeder and Tyler Kell and Yunqi Li and Xueyuan Zhao and Iddo Bentov and Lorenz Breidenbach and Ari Juels",
-			"booktitle": "IEEE S&P",
-			"url": "https://arxiv.org/pdf/1904.05234.pdf",
-			"bibtex": ["10.1109/SP40000.2020.00040"],
+			"booktitle": "IEEE S&P '20",
+			"url": {
+				"PDF": "https://arxiv.org/pdf/1904.05234.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1109/SP40000.2020.00040"
+			},
 			"detail": false
 		}
 	],
@@ -163,33 +236,49 @@
 		{
 			"title": "Prism: Deconstructing the Blockchain to Approach Physical Limits",
 			"author": "Vivek Bagaria and Sreeram Kannan and David Tse and Giulia Fanti and Pramod Viswanath",
-			"booktitle": "ACM CSS 2019",
-			"url": "https://arxiv.org/pdf/1810.08092.pdf",
-			"bibtex": ["10.1145/3319535.3363213"],
+			"booktitle": "ACM CSS '19",
+			"url": {
+				"PDF": "https://arxiv.org/pdf/1810.08092.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1145/3319535.3363213"
+			},
 			"detail": false
 		},
 		{
 			"title": "Ledger Combiners for Fast Settlement",
 			"author": "Matthias Fitzi and Peter Gaži and Aggelos Kiayias and Alexander Russell",
-			"booktitle": "TCC 2020",
-			"url": "https://eprint.iacr.org/2020/675.pdf",
-			"bibtex": ["10.1007/978-3-030-64375-1_12"],
+			"booktitle": "TCC '20",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2020/675.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1007/978-3-030-64375-1_12"
+			},
 			"detail": false
 		},
 		{
 			"title": "Mining in Logarithmic Space",
 			"author": "Aggelos Kiayias and Nikos Leonardos and Dionysis Zindros",
-			"booktitle": "ACM CCS 2021",
-			"url": "https://eprint.iacr.org/2021/623.pdf",
-			"bibtex": ["10.1145/3460120.3484784"],
+			"booktitle": "ACM CCS '21",
+			"url": {
+				"PDF": "https://eprint.iacr.org/2021/623.pdf"
+			},
+			"bibtex": {
+				"conference paper": "10.1145/3460120.3484784"
+			},
 			"detail": false
 		},
 		{
 			"title": "Parallel Chains: Improving Throughput and Latency of Blockchain Protocols via Parallel Composition",
 			"author": "Matthias Fitzi and Peter Gaži and Aggelos Kiayias and Alexander Russell",
 			"booktitle": "Manuscript",
-			"url": "https://eprint.iacr.org/2018/1119.pdf",
-			"bibtex": ["cryptoeprint:2018/1119"],
+			"url": {
+				"PDF": "https://eprint.iacr.org/2018/1119.pdf"
+			},
+			"bibtex": {
+				"manuscript": "cryptoeprint:2018/1119"
+			},
 			"detail": true
 		}
 	],
@@ -198,7 +287,10 @@
 			"title": "Lecture Notes Cryptographic Protocols",
 			"author": "Berry Schoenmakers",
 			"booktitle": "Manuscript",
-			"url": "https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf",
+			"url": {
+				"Notes": "https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf",
+				"Slides": "https://www.win.tue.nl/~berry/CryptographicProtocols/LectureSlides.pdf"
+			},
 			"detail": false
 		}
 	]

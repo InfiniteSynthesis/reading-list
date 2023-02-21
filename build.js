@@ -28,13 +28,23 @@ const solveEntry = (entry) => {
 	entryMarkdown += `<tr><td colspan="3"><strong>${entry.title}</strong></td></tr>\n`;
 
 	const authors = entry.author.replaceAll(' and', ',');
-	const bibAddr = entry.bibtex? entry.bibtex[0].replaceAll('/', '_') : undefined;
-	const bibItem = bibAddr ? ` | <a href="bib/${bibAddr}.bib">.BIB</a>` : '';
-	entryMarkdown += `\t<tr>
-    \t<td><i>${authors}</i></td>
-    \t<td width="175" align="center">${entry.booktitle}</td>
-    \t<td width="100" align="center"><a href="${entry.url}">PDF</a>${bibItem}</td>
-    </tr>\n`;
+
+	let urlAndBib = '';
+	for (key in entry.url) {
+		urlAndBib += `<a href="${entry.url[key]}" target="_blank" rel="noopener noreferrer">${key}</a>`;
+	}
+
+	for (key in entry.bibtex) {
+		urlAndBib += `<a href="bib/${entry.bibtex[key]}.bib" target="_blank" rel="noopener noreferrer" title="${key}">.BIB</a>`;
+	}
+	urlAndBib = urlAndBib.replaceAll('</a><a', '</a> | <a');
+
+	entryMarkdown += `<tr>
+	<td><i>${authors}</i></td>
+	<td width="150" align="center">${entry.booktitle}</td>
+	<td width="150" align="center">${urlAndBib}</td>
+</tr>
+`;
 
 	return entryMarkdown;
 };
@@ -70,7 +80,7 @@ for (key in json) {
 		content += sectionCollpaseMarkdown;
 	}
 
-	content += `<br />\n\n`
+	content += `<br />\n\n`;
 }
 
 fs.readFile('./template.md', (err, templateBuffer) => {
@@ -79,9 +89,7 @@ fs.readFile('./template.md', (err, templateBuffer) => {
 	let template = templateBuffer.toString();
 	template = template.replace('<!-- content>', content);
 	fs.writeFile('./README.md', template, (err) => {
-		if (err) {
-			console.error(err);
-		}
+		if (err) console.error(err);
 		// file written successfully
 	});
 });
