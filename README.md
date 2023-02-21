@@ -101,7 +101,7 @@
 <tr>
 	<td><i>Juan Garay, Aggelos Kiayias, Yu Shen</i></td>
 	<td width="150" align="center">TCC '22</td>
-	<td width="150" align="center"><a href="https://eprint.iacr.org/2022/1220.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1007/978-3-031-22368-6_7.bib" target="_blank" rel="noopener noreferrer" title="conference paper">.BIB</a></td>
+	<td width="150" align="center"><a href="https://eprint.iacr.org/2022/1220.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="https://github.com/InfiniteSynthesis/GKS-22-TCC-Slides/releases/latest" target="_blank" rel="noopener noreferrer">Slides</a> | <a href="bib/10.1007/978-3-031-22368-6_7.bib" target="_blank" rel="noopener noreferrer" title="conference paper">.BIB</a></td>
 </tr>
 </table>
 
@@ -138,7 +138,7 @@
 </table>
 
 <details>
-<summary>More on conference paper</summary>
+<summary>More on Transaction Order Fairness</summary>
 <table>
 <tr><td colspan="3"><strong>Order-Fair Consensus in the Permissionless Setting</strong></td></tr>
 <tr>
@@ -194,7 +194,7 @@
 </table>
 
 <details>
-<summary>More on manuscript</summary>
+<summary>More on Scalability</summary>
 <table>
 <tr><td colspan="3"><strong>Parallel Chains: Improving Throughput and Latency of Blockchain Protocols via Parallel Composition</strong></td></tr>
 <tr>

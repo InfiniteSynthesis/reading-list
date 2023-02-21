@@ -146,7 +146,8 @@
 			"author": "Juan Garay and Aggelos Kiayias and Yu Shen",
 			"booktitle": "TCC '22",
 			"url": {
-				"PDF": "https://eprint.iacr.org/2022/1220.pdf"
+				"PDF": "https://eprint.iacr.org/2022/1220.pdf",
+				"Slides": "https://github.com/InfiniteSynthesis/GKS-22-TCC-Slides/releases/latest"
 			},
 			"bibtex": {
 				"conference paper": "10.1007/978-3-031-22368-6_7"

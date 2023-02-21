@@ -49,10 +49,10 @@ const solveEntry = (entry) => {
 	return entryMarkdown;
 };
 
-for (key in json) {
-	content += `## ${key}\n\n`;
+for (section in json) {
+	content += `## ${section}\n\n`;
 
-	const data = json[key];
+	const data = json[section];
 
 	let sectionMarkdown = sectionMarkdownTemplate;
 	let sectionCollpaseMarkdown = collapseMarkdownTemplate;
@@ -75,7 +75,7 @@ for (key in json) {
 	if (sectionCollpaseMarkdown !== collapseMarkdownTemplate) {
 		sectionCollpaseMarkdown = sectionCollpaseMarkdown
 			.replace('<!-- DETAILS CONTENT>\n', '')
-			.replace('<!-- DETAILS SUMMARY>', key);
+			.replace('<!-- DETAILS SUMMARY>', section);
 
 		content += sectionCollpaseMarkdown;
 	}
