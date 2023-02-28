@@ -35,7 +35,8 @@ const solveEntry = (entry) => {
 	}
 
 	for (key in entry.bibtex) {
-		urlAndBib += `<a href="bib/${entry.bibtex[key]}.bib" target="_blank" rel="noopener noreferrer" title="${key}">.BIB</a>`;
+		const bibFile = entry.bibtex[key].replaceAll('/', '_');
+		urlAndBib += `<a href="bib/${bibFile}.bib" target="_blank" rel="noopener noreferrer" title="${key}">.BIB</a>`;
 	}
 	urlAndBib = urlAndBib.replaceAll('</a><a', '</a> | <a');
 
