@@ -91,10 +91,16 @@
 ## Clock Synchronization
 
 <table>
+<tr><td colspan="3"><strong>On the possibility and impossibility of achieving clock synchronization</strong></td></tr>
+<tr>
+	<td><i>Danny Dolev, Joseph Y Halpern, Raymond H Strong</i></td>
+	<td width="150" align="center">JCSS '8</td>
+	<td width="150" align="center"><a href="https://www.sciencedirect.com/science/article/pii/0022000086900280" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.5555_9128.9132.bib" target="_blank" rel="noopener noreferrer" title="conference paper">.BIB</a></td>
+</tr>
 <tr><td colspan="3"><strong>Ouroboros Chronos: Permissionless Clock Synchronization via Proof-of-Stake</strong></td></tr>
 <tr>
 	<td><i>Christian Badertscher, Peter Gaži, Aggelos Kiayias, Alexander Russell, Vassilis Zikas</i></td>
-	<td width="150" align="center">TOPLAS '82</td>
+	<td width="150" align="center">EUROCRYPT '21</td>
 	<td width="150" align="center"><a href="https://eprint.iacr.org/2019/838.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1007_978-3-030-77883-5_14.bib" target="_blank" rel="noopener noreferrer" title="conference paper">.BIB</a></td>
 </tr>
 <tr><td colspan="3"><strong>Permissionless Clock Synchronization with Public Setup</strong></td></tr>
@@ -204,6 +210,19 @@
 </tr>
 </table>
 </details>
+
+<br />
+
+## Graph Theory
+
+<table>
+<tr><td colspan="3"><strong>On the maximum cardinality of a consistent set of arcs in a random tournament</strong></td></tr>
+<tr>
+	<td><i>W Fernandez de la Vega</i></td>
+	<td width="150" align="center">Journal of Combinatorial Theory</td>
+	<td width="150" align="center"><a href="https://core.ac.uk/download/pdf/82194839.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1016_0095-8956(83)90060-6.bib" target="_blank" rel="noopener noreferrer" title="journal paper">.BIB</a></td>
+</tr>
+</table>
 
 <br />
 

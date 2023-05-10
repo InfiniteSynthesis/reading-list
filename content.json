@@ -130,9 +130,21 @@
 	],
 	"Clock Synchronization": [
 		{
+			"title": "On the possibility and impossibility of achieving clock synchronization",
+			"author": "Danny Dolev and Joseph Y Halpern and Raymond H Strong",
+			"booktitle": "JCSS '8",
+			"url": {
+				"PDF": "https://www.sciencedirect.com/science/article/pii/0022000086900280"
+			},
+			"bibtex": {
+				"conference paper": "10.5555/9128.9132"
+			},
+			"detail": false
+		},
+		{
 			"title": "Ouroboros Chronos: Permissionless Clock Synchronization via Proof-of-Stake",
 			"author": "Christian Badertscher and Peter Gaži and Aggelos Kiayias and Alexander Russell and Vassilis Zikas",
-			"booktitle": "TOPLAS '82",
+			"booktitle": "EUROCRYPT '21",
 			"url": {
 				"PDF": "https://eprint.iacr.org/2019/838.pdf"
 			},
@@ -281,6 +293,20 @@
 				"manuscript": "cryptoeprint:2018/1119"
 			},
 			"detail": true
+		}
+	],
+	"Graph Theory": [
+		{
+			"title": "On the maximum cardinality of a consistent set of arcs in a random tournament",
+			"author": "W Fernandez de la Vega",
+			"booktitle": "Journal of Combinatorial Theory",
+			"url": {
+				"PDF": "https://core.ac.uk/download/pdf/82194839.pdf"
+			},
+			"bibtex": {
+				"journal paper": "10.1016/0095-8956(83)90060-6"
+			},
+			"detail": false
 		}
 	],
 	"Lecture Notes": [
