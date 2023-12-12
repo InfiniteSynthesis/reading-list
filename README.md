@@ -1,6 +1,6 @@
 # My References
 
-## Blockchain
+## PoW Blockchains
 
 <table>
 <tr><td colspan="3"><strong>Bitcoin: A Peer-to-Peer Electronic Cash System</strong></td></tr>
@@ -9,13 +9,6 @@
 	<td width="150" align="center">Manuscript</td>
 	<td width="150" align="center"><a href="https://www.bitcoin.com/bitcoin.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/nakamoto2009bitcoin.bib" target="_blank" rel="noopener noreferrer" title="manuscript">.BIB</a></td>
 </tr>
-</table>
-
-<br />
-
-## Formal Analysis
-
-<table>
 <tr><td colspan="3"><strong>The Bitcoin Backbone Protocol: Analysis and Applications</strong></td></tr>
 <tr>
 	<td><i>Juan Garay, Aggelos Kiayias, Nikos Leonardos</i></td>
@@ -27,12 +20,6 @@
 	<td><i>Juan Garay, Aggelos Kiayias, Nikos Leonardos</i></td>
 	<td width="150" align="center">CRYPTO '17</td>
 	<td width="150" align="center"><a href="https://eprint.iacr.org/2016/1048.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1007_978-3-319-63688-7_10.bib" target="_blank" rel="noopener noreferrer" title="conference paper">.BIB</a></td>
-</tr>
-<tr><td colspan="3"><strong>How Does Nakamoto Set His Clock? Full Analysis of Nakamoto Consensus in Bounded-Delay Networks</strong></td></tr>
-<tr>
-	<td><i>Juan Garay, Aggelos Kiayias, Nikos Leonardos</i></td>
-	<td width="150" align="center">Manuscript</td>
-	<td width="150" align="center"><a href="https://eprint.iacr.org/2020/277.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/cryptoeprint:2020_277.bib" target="_blank" rel="noopener noreferrer" title="eprint">.BIB</a></td>
 </tr>
 <tr><td colspan="3"><strong>Analysis of the Blockchain Protocol in Asynchronous Networks</strong></td></tr>
 <tr>
@@ -47,6 +34,18 @@
 	<td width="150" align="center"><a href="https://eprint.iacr.org/2017/149.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1007_978-3-319-63688-7_11.bib" target="_blank" rel="noopener noreferrer" title="conference paper">.BIB</a></td>
 </tr>
 </table>
+
+<details>
+<summary>More on PoW Blockchains</summary>
+<table>
+<tr><td colspan="3"><strong>How Does Nakamoto Set His Clock? Full Analysis of Nakamoto Consensus in Bounded-Delay Networks</strong></td></tr>
+<tr>
+	<td><i>Juan Garay, Aggelos Kiayias, Nikos Leonardos</i></td>
+	<td width="150" align="center">Manuscript</td>
+	<td width="150" align="center"><a href="https://eprint.iacr.org/2020/277.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/cryptoeprint:2020_277.bib" target="_blank" rel="noopener noreferrer" title="eprint">.BIB</a></td>
+</tr>
+</table>
+</details>
 
 <br />
 
@@ -216,6 +215,12 @@
 ## Graph Theory
 
 <table>
+<tr><td colspan="3"><strong>A Note on Exact Algorithms for Vertex Ordering Problems on Graphs</strong></td></tr>
+<tr>
+	<td><i>Hans L. Bodlaender, Fedor V. Fomin, Arie M. C. A. Koster, Dieter Kratsch, Dimitrios M. Thilikos </i></td>
+	<td width="150" align="center"> Theory of Computing Systems</td>
+	<td width="150" align="center"><a href="https://link.springer.com/content/pdf/10.1007/s00224-011-9312-0.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1007_s00224-011-9312-0.bib" target="_blank" rel="noopener noreferrer" title="journal paper">.BIB</a></td>
+</tr>
 <tr><td colspan="3"><strong>On the maximum cardinality of a consistent set of arcs in a random tournament</strong></td></tr>
 <tr>
 	<td><i>W Fernandez de la Vega</i></td>
@@ -223,6 +228,18 @@
 	<td width="150" align="center"><a href="https://core.ac.uk/download/pdf/82194839.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1016_0095-8956(83)90060-6.bib" target="_blank" rel="noopener noreferrer" title="journal paper">.BIB</a></td>
 </tr>
 </table>
+
+<details>
+<summary>More on Graph Theory</summary>
+<table>
+<tr><td colspan="3"><strong>Optimally ranking unrankable tournaments</strong></td></tr>
+<tr>
+	<td><i>J. Spencer</i></td>
+	<td width="150" align="center"> Periodica Mathematica Hungarica</td>
+	<td width="150" align="center"><a href="https://link.springer.com/content/pdf/10.1007/BF02017965.pdf" target="_blank" rel="noopener noreferrer">PDF</a> | <a href="bib/10.1007_BF02017965.bib" target="_blank" rel="noopener noreferrer" title="journal paper">.BIB</a></td>
+</tr>
+</table>
+</details>
 
 <br />
 

@@ -1,5 +1,5 @@
 {
-	"Blockchain": [
+	"PoW Blockchains": [
 		{
 			"title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
 			"author": "Satoshi Nakamoto",
@@ -11,9 +11,7 @@
 				"manuscript": "nakamoto2009bitcoin"
 			},
 			"detail": false
-		}
-	],
-	"Formal Analysis": [
+		},
 		{
 			"title": "The Bitcoin Backbone Protocol: Analysis and Applications",
 			"author": "Juan Garay and Aggelos Kiayias and Nikos Leonardos",
@@ -49,7 +47,7 @@
 			"bibtex": {
 				"eprint": "cryptoeprint:2020/277"
 			},
-			"detail": false
+			"detail": true
 		},
 		{
 			"title": "Analysis of the Blockchain Protocol in Asynchronous Networks",
@@ -297,6 +295,18 @@
 	],
 	"Graph Theory": [
 		{
+			"title": "A Note on Exact Algorithms for Vertex Ordering Problems on Graphs",
+			"author": "Hans L. Bodlaender, Fedor V. Fomin, Arie M. C. A. Koster, Dieter Kratsch, Dimitrios M. Thilikos ",
+			"booktitle": " Theory of Computing Systems",
+			"url": {
+				"PDF": "https://link.springer.com/content/pdf/10.1007/s00224-011-9312-0.pdf"
+			},
+			"bibtex": {
+				"journal paper": "10.1007/s00224-011-9312-0"
+			},
+			"detail": false
+		},
+		{
 			"title": "On the maximum cardinality of a consistent set of arcs in a random tournament",
 			"author": "W Fernandez de la Vega",
 			"booktitle": "Journal of Combinatorial Theory",
@@ -307,6 +317,18 @@
 				"journal paper": "10.1016/0095-8956(83)90060-6"
 			},
 			"detail": false
+		},
+		{
+			"title": "Optimally ranking unrankable tournaments",
+			"author": "J. Spencer",
+			"booktitle": " Periodica Mathematica Hungarica",
+			"url": {
+				"PDF": "https://link.springer.com/content/pdf/10.1007/BF02017965.pdf"
+			},
+			"bibtex": {
+				"journal paper": "10.1007/BF02017965"
+			},
+			"detail": true
 		}
 	],
 	"Lecture Notes": [
