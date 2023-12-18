@@ -42,7 +42,7 @@ const solveEntry = (entry) => {
 	entryMarkdown += `<tr>
 	<td><i>${authors}</i></td>
 	<td min-width="150" align="center">${entry.booktitle}</td>
-	<td width="150" align="center">${urlAndBib}</td>
+	<td min-width="150" align="center">${urlAndBib}</td>
 </tr>
 `;
 
