@@ -1,0 +1,16 @@
+@inproceedings{10.1145/571825.571859,
+  author    = {Lindell, Yehuda and Lysyanskaya, Anna and Rabin, Tal},
+  title     = {Sequential Composition of Protocols without Simultaneous Termination},
+  year      = {2002},
+  isbn      = {1581134851},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/571825.571859},
+  doi       = {10.1145/571825.571859},
+  abstract  = {The question of the composition of protocols is an important and heavily researched one. In this paper we consider the problem of sequential composition of synchronous protocols that do not have simultaneous termination; i.e., the parties do not necessarily conclude a protocol execution in the same round. A problem arises becauses such protocols must begin in synchrony; therefore a second execution cannot follow from the first in a straightforward manner. An important example of a protocol with this property is that of randomized Byzantine Agreement with an expected constant number of rounds (such as the one due to Feldman and Micali). We note that expected constant-round Byzantine Agreement cannot have simultaneous termination and thus this (problematic) property is inherent.Given that the termination of the parties is not simultaneous, a natural question to consider is how to synchronize the parties so that such protocols can be sequentially composed. Furthermore, such a composition should preserve the original running-time of the protocol, i.e. running the protocol ℓ times sequentially should take in the order of ℓ times the running-time of the protocol. In this paper, we present a method for sequentially composing any protocol in which the players do not terminate in the same round, while preserving the original round complexity. An important application of this result is the sequential composition of parallel Byzantine Agreement. Such a composition can be used by parties connected in a point-to-point network to run protocols designed for the broadcast model, while maintaining the original round complexity.},
+  booktitle = {Proceedings of the Twenty-First Annual Symposium on Principles of Distributed Computing},
+  pages     = {203–212},
+  numpages  = {10},
+  location  = {Monterey, California},
+  series    = {PODC '02}
+}

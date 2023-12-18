@@ -1,0 +1,50 @@
+[
+    {
+        "title": "The Byzantine Generals Problem",
+        "author": "Leslie Lamport and Robert Shostak and Marshall Peas",
+        "booktitle": "TOPLAS '82",
+        "url": {
+            "PDF": "https://lamport.azurewebsites.net/pubs/byz.pdf"
+        },
+        "bibtex": {
+            "conference paper": "10.1145/357172.357176"
+        },
+        "detail": false
+    },
+    {
+        "title": "Proof-of-Work-based Consensus in Expected-Constant Time",
+        "author": "Juan Garay and Aggelos Kiayias and Yu Shen",
+        "booktitle": "Manuscript",
+        "url": {
+            "PDF": "https://eprint.iacr.org/2023/1663.pdf"
+        },
+        "bibtex": {
+            "eprint": "cryptoeprint:2023/1663"
+        },
+        "detail": false
+    },
+    {
+        "title": "SoK: A Consensus Taxonomy in the Blockchain Era",
+        "author": "Juan Garay and Aggelos Kiayias",
+        "booktitle": "CT-RSA '20",
+        "url": {
+            "PDF": "https://eprint.iacr.org/2018/754.pdf"
+        },
+        "bibtex": {
+            "conference paper": "10.1007/978-3-030-40186-3_13"
+        },
+        "detail": false
+    },
+    {
+        "title": "Sequential composition of protocols without simultaneous termination",
+        "author": "Yehuda Lindell, Anna Lysyanskaya and Tal Rabin",
+        "booktitle": "PODC '02",
+        "url": {
+            "PDF": "https://dl.acm.org/doi/pdf/10.1145/571825.571859"
+        },
+        "bibtex": {
+            "conference paper": "10.1145/571825.571859"
+        },
+        "detail": true
+    }
+]

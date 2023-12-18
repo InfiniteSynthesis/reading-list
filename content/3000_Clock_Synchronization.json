@@ -1,0 +1,39 @@
+[
+	{
+		"title": "On the possibility and impossibility of achieving clock synchronization",
+		"author": "Danny Dolev and Joseph Y Halpern and Raymond H Strong",
+		"booktitle": "JCSS '8",
+		"url": {
+			"PDF": "https://www.sciencedirect.com/science/article/pii/0022000086900280"
+		},
+		"bibtex": {
+			"conference paper": "10.5555/9128.9132"
+		},
+		"detail": false
+	},
+	{
+		"title": "Ouroboros Chronos: Permissionless Clock Synchronization via Proof-of-Stake",
+		"author": "Christian Badertscher and Peter Gaži and Aggelos Kiayias and Alexander Russell and Vassilis Zikas",
+		"booktitle": "EUROCRYPT '21",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2019/838.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/978-3-030-77883-5_14"
+		},
+		"detail": false
+	},
+	{
+		"title": "Permissionless Clock Synchronization with Public Setup",
+		"author": "Juan Garay and Aggelos Kiayias and Yu Shen",
+		"booktitle": "TCC '22",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2022/1220.pdf",
+			"Slides": "https://github.com/InfiniteSynthesis/GKS-22-TCC-Slides/releases/latest"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/978-3-031-22368-6_7"
+		},
+		"detail": false
+	}
+]

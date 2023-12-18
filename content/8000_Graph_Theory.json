@@ -1,0 +1,38 @@
+[
+	{
+		"title": "A Note on Exact Algorithms for Vertex Ordering Problems on Graphs",
+		"author": "Hans L. Bodlaender, Fedor V. Fomin, Arie M. C. A. Koster, Dieter Kratsch, Dimitrios M. Thilikos ",
+		"booktitle": " Theory of Computing Systems",
+		"url": {
+			"PDF": "https://link.springer.com/content/pdf/10.1007/s00224-011-9312-0.pdf"
+		},
+		"bibtex": {
+			"journal paper": "10.1007/s00224-011-9312-0"
+		},
+		"detail": false
+	},
+	{
+		"title": "On the maximum cardinality of a consistent set of arcs in a random tournament",
+		"author": "W Fernandez de la Vega",
+		"booktitle": "Journal of Combinatorial Theory",
+		"url": {
+			"PDF": "https://core.ac.uk/download/pdf/82194839.pdf"
+		},
+		"bibtex": {
+			"journal paper": "10.1016/0095-8956(83)90060-6"
+		},
+		"detail": false
+	},
+	{
+		"title": "Optimally ranking unrankable tournaments",
+		"author": "J. Spencer",
+		"booktitle": " Periodica Mathematica Hungarica",
+		"url": {
+			"PDF": "https://link.springer.com/content/pdf/10.1007/BF02017965.pdf"
+		},
+		"bibtex": {
+			"journal paper": "10.1007/BF02017965"
+		},
+		"detail": true
+	}
+]

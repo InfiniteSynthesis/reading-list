@@ -1,0 +1,50 @@
+[
+	{
+		"title": "Ledger Combiners for Fast Settlement",
+		"author": "Matthias Fitzi and Peter Gaži and Aggelos Kiayias and Alexander Russell",
+		"booktitle": "TCC '20",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2020/675.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/978-3-030-64375-1_12"
+		},
+		"detail": false
+	},
+	{
+		"title": "Mining in Logarithmic Space",
+		"author": "Aggelos Kiayias and Nikos Leonardos and Dionysis Zindros",
+		"booktitle": "ACM CCS '21",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2021/623.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1145/3460120.3484784"
+		},
+		"detail": false
+	},
+	{
+		"title": "Prism: Deconstructing the Blockchain to Approach Physical Limits",
+		"author": "Vivek Bagaria and Sreeram Kannan and David Tse and Giulia Fanti and Pramod Viswanath",
+		"booktitle": "ACM CSS '19",
+		"url": {
+			"PDF": "https://arxiv.org/pdf/1810.08092.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1145/3319535.3363213"
+		},
+		"detail": false
+	},
+	{
+		"title": "Parallel Chains: Improving Throughput and Latency of Blockchain Protocols via Parallel Composition",
+		"author": "Matthias Fitzi and Peter Gaži and Aggelos Kiayias and Alexander Russell",
+		"booktitle": "Manuscript",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2018/1119.pdf"
+		},
+		"bibtex": {
+			"manuscript": "cryptoeprint:2018/1119"
+		},
+		"detail": true
+	}
+]

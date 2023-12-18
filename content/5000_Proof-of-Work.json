@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Pricing via Processing or Combatting Junk Mail",
+		"author": "Cynthia Dwork and Moni Naor",
+		"booktitle": "CRYPTO '92",
+		"url": {
+			"PDF": "https://web.cs.dal.ca/~abrodsky/7301/readings/DwNa93.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/3-540-48071-4_10"
+		},
+		"detail": false
+	},
+	{
+		"title": "Proofs of Work From Worst-Case Assumptions",
+		"author": "Marshall Ball and Alon Rosen and Manuel Sabin and Prashant Nalini Vasudevan ",
+		"booktitle": "CRYPTO '18",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2018/559.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/978-3-319-96884-1_26"
+		},
+		"detail": false
+	}
+]

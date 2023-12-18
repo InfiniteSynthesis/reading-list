@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Ordering Transactions with Bounded Unfairness: Definitions, Complexity and Constructions",
+		"author": "Aggelos Kiayias and Nikos Leonardos and Yu Shen",
+		"booktitle": "Manuscript",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2023/1253.pdf"
+		},
+		"bibtex": {
+			"conference paper": "cryptoeprint:2023/1253"
+		},
+		"detail": false
+	},
+	{
+		"title": "Order-Fairness for Byzantine Consensus",
+		"author": "Mahimna Kelkar and Fan Zhang and Steven Goldfeder and Ari Juels",
+		"booktitle": "CRYPTO '20",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2020/269.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/978-3-030-56877-1_16"
+		},
+		"detail": false
+	},
+	{
+		"title": "Order-Fair Consensus in the Permissionless Setting",
+		"author": "Mahimna Kelkar and Soubhik Deb and Sreeram Kannan",
+		"booktitle": "APKC '22",
+		"url": {
+			"PDF": "https://dl.acm.org/doi/pdf/10.1145/3494105.3526239"
+		},
+		"bibtex": {
+			"conference paper": "10.1145/3494105.3526239"
+		},
+		"detail": true
+	}
+]

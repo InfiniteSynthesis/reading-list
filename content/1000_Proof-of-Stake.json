@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Ouroboros: A Provably Secure Proof-of-Stake Blockchain Protocol",
+		"author": "Aggelos Kiayias and Alexander Russell and Bernardo David and Roman Oliynykov",
+		"booktitle": "CRYPTO '17",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2016/889.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/978-3-319-63688-7_12"
+		},
+		"detail": false
+	},
+	{
+		"title": "Ouroboros Genesis: Composable Proof-of-Stake Blockchains with Dynamic Availability",
+		"author": "Christian Badertscher and Peter Gaži, Aggelos Kiayias and Alexander Russell and Vassilis Zikas",
+		"booktitle": "ACM CCS '18",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2018/378.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1145/3243734.3243848"
+		},
+		"detail": false
+	}
+]

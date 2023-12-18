@@ -1,0 +1,26 @@
+[
+	{
+		"title": "Theoretical Bitcoin Attacks with less than Half of the Computational Power (draft)",
+		"author": "Lear Bahack",
+		"booktitle": "Manuscript",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2013/868.pdf"
+		},
+		"bibtex": {
+			"manuscript": "cryptoeprint:2013/868"
+		},
+		"detail": false
+	},
+	{
+		"title": "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges",
+		"author": "Philip Daian and Steven Goldfeder and Tyler Kell and Yunqi Li and Xueyuan Zhao and Iddo Bentov and Lorenz Breidenbach and Ari Juels",
+		"booktitle": "IEEE S&P '20",
+		"url": {
+			"PDF": "https://arxiv.org/pdf/1904.05234.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1109/SP40000.2020.00040"
+		},
+		"detail": false
+	}
+]

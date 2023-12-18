@@ -3,8 +3,7 @@
  */
 
 const fs = require('fs');
-
-const json = require('./content.json');
+const path = require('path');
 
 const sectionMarkdownTemplate = `<table>
 <!-- SECTION CONTENT>
@@ -42,7 +41,7 @@ const solveEntry = (entry) => {
 
 	entryMarkdown += `<tr>
 	<td><i>${authors}</i></td>
-	<td width="150" align="center">${entry.booktitle}</td>
+	<td min-width="150" align="center">${entry.booktitle}</td>
 	<td width="150" align="center">${urlAndBib}</td>
 </tr>
 `;
@@ -50,10 +49,13 @@ const solveEntry = (entry) => {
 	return entryMarkdown;
 };
 
-for (section in json) {
-	content += `## ${section}\n\n`;
+const sections = fs.readdirSync('./content').filter((file) => path.extname(file) === '.json');
 
-	const data = json[section];
+sections.forEach((section) => {
+	const fileData = fs.readFileSync(path.join('./content', section));
+	const data = JSON.parse(fileData.toString());
+	const sectionName = section.slice(5, -5).replaceAll('_', ' ');
+	content += `## ${sectionName}\n\n`;
 
 	let sectionMarkdown = sectionMarkdownTemplate;
 	let sectionCollpaseMarkdown = collapseMarkdownTemplate;
@@ -76,13 +78,13 @@ for (section in json) {
 	if (sectionCollpaseMarkdown !== collapseMarkdownTemplate) {
 		sectionCollpaseMarkdown = sectionCollpaseMarkdown
 			.replace('<!-- DETAILS CONTENT>\n', '')
-			.replace('<!-- DETAILS SUMMARY>', section);
+			.replace('<!-- DETAILS SUMMARY>', sectionName);
 
 		content += sectionCollpaseMarkdown;
 	}
 
 	content += `<br />\n\n`;
-}
+});
 
 fs.readFile('./template.md', (err, templateBuffer) => {
 	if (err) throw err;

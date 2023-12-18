@@ -1,0 +1,35 @@
+[
+	{
+		"title": "How To Simulate It - A Tutorial on the Simulation Proof Technique",
+		"author": "Yehuda Lindell",
+		"booktitle": "Tutorials on the Foundations of Cryptography",
+		"url": {
+			"PDF": "https://eprint.iacr.org/2016/046.pdf"
+		},
+		"bibtex": {
+			"conference paper": "10.1007/978-3-319-57048-8_6",
+			"eprint": "cryptoeprint:2014/765"
+		},
+		"detail": false
+	},
+
+	{
+		"title": "Mathematics and Computation",
+		"author": "Avi Wigderson",
+		"booktitle": "Mathematics and Computation",
+		"url": {
+			"PDF": "https://www.math.ias.edu/avi/book"
+		},
+		"detail": false
+	},
+	{
+		"title": "Lecture Notes Cryptographic Protocols",
+		"author": "Berry Schoenmakers",
+		"booktitle": "Manuscript",
+		"url": {
+			"Notes": "https://www.win.tue.nl/~berry/CryptographicProtocols/LectureNotes.pdf",
+			"Slides": "https://www.win.tue.nl/~berry/CryptographicProtocols/LectureSlides.pdf"
+		},
+		"detail": false
+	}
+]
